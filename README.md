@@ -110,7 +110,7 @@ You can also install the package to your Python environment using
 $ python3 -m pip install .
 ```
 
-## Setup CAN-To-USB Adapter
+## Setup CAN-To-USB Adapter (If you are using the originial Geschwister Schneider USB CAN interface)
 
 1. Enable gs_usb kernel module
     ```
