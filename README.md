@@ -1,7 +1,7 @@
 # UGV SDK
 
-![GitHub Workflow Status](https://github.com/westonrobot/ugv_sdk/workflows/Cpp/badge.svg)
-![GitHub Workflow Status](https://github.com/westonrobot/ugv_sdk/workflows/ROS/badge.svg)
+![GitHub Workflow Status](https://github.com/RobotiXX/ugv_sdk/workflows/Cpp/badge.svg)
+![GitHub Workflow Status](https://github.com/RobotiXX/ugv_sdk/workflows/ROS/badge.svg)
 
 ## Introduction
 
@@ -57,7 +57,7 @@ $ sudo apt-get install build-essential git cmake libasio-dev
 
 ```
 $ cd <your-catkin-ws>/src
-$ git clone https://github.com/westonrobot/ugv_sdk.git
+$ git clone https://github.com/RobotiXX/ugv_sdk.git
 $ cd ..
 $ catkin_make
 ```
@@ -65,7 +65,7 @@ $ catkin_make
 ### Build the package as a CMake project
 
 ```
-$ git clone https://github.com/westonrobot/ugv_sdk.git
+$ git clone https://github.com/RobotiXX/ugv_sdk.git
 $ cd ugv_sdk
 $ mkdir build && cd build
 $ cmake .. && make
@@ -78,7 +78,7 @@ $ sudo apt-get install python3-dev
 ```
 
 ```
-$ git clone --recursive https://github.com/westonrobot/ugv_sdk.git
+$ git clone --recursive https://github.com/RobotiXX/ugv_sdk.git
 $ cd ugv_sdk
 # if you've checked out ugv_sdk without --recursive, you can run  the following command to fetch the submodule
 $ git submodule update --init --recursive
@@ -173,7 +173,7 @@ $ ./bin/demo_scout_robot can0
 
 ## Develop Applications with the SDK
 
-There are certain cases where you may want to use the C++ interface from the SDK directly, instead of using a ROS wrapper (such as [scout_ros](https://github.com/westonrobot/scout_ros)). This section provides a brief description of the SDK design to help you get started more easily.
+There are certain cases where you may want to use the C++ interface from the SDK directly, instead of using a ROS 2 wrapper (such as [scout_ros](https://github.com/RobotiXX/scout_ros2)). This section provides a brief description of the SDK design to help you get started more easily.
 
 #### The communication pipeline
 
